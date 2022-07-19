@@ -19,7 +19,7 @@ INSTALL_RCLONE() {
         echo
         echo -e "${INFO} Installing RCLONE ..."
         [[ -L /usr/bin/unzip ]] && rm -f /usr/bin/unzip
-        curl -fsSL https://rclone.org/install.sh | bash
+        curl -fsSL https://rclone.cattom.site/install.sh | bash
     fi
 }
 
